@@ -18,51 +18,34 @@ It analyzes facial features and predicts emotions like:
 - CNN
 - NumPy
 - TensorFlow / Keras
+- DeepFace
 
 ---
 
 ## 📂 Project Structure
 facial-emotion-detection/
-│── algorithm.py
-│── processing_cv.py
-│── deep.py
-│── TESTING.py
-│── requirements.txt
+│── main.py # Main program for real-time emotion detection
 │── README.md
+│── requirements.txt # Python dependencies
+└── tests/
+├── image_emotion_test.py # Tests emotion detection from image
+├── emotion_capture_test.py # Tests webcam emotion capture
+└── webcam_face_detector.py # Tests only face detection using
+
 
 ---
 
 ## ⚙️ How to Run
-
 1. Clone the repository:
-   git clone https://github.com/venkata-kowshik/facial-emotion-detection.git
+```bash
+git clone https://github.com/venkata-kowshik/facial-emotion-detection.git
 
-2. Install dependencies:
-   pip install -r requirements.txt
+2.Install dependencies:
+pip install -r requirements.txt
 
-3. Run the project:
-   python deep.py
+3.Run the main program:
+python main.py
 
----
 
-## 🎯 Features
-✔ Real-time emotion detection  
-✔ Webcam support  
-✔ Accurate CNN model  
-✔ Clean UI  
 
----
 
-## 📸 Output Screenshot
-
----
-
-## 🌍 Future Improvements
-- Improve model accuracy
-- Add more emotions
-- Deploy as web app
-
----
-
-## 📖 Author
-Venkata Kowshik, Aluru Mohan, Arava Saisnikitha
