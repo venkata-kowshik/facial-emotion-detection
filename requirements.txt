@@ -1,0 +1,6 @@
+opencv-python>=4.7.0   # OpenCV for computer vision & webcam capture
+numpy>=1.25.0           # For numerical operations and arrays
+tensorflow>=2.14.0      # Deep learning (CNN models)
+keras>=2.14.0           # Neural network API
+deepface>=0.0.87        # Facial emotion recognition
+matplotlib>=3.8.0       # For plotting graphs or visualization (optional)
