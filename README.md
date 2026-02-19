@@ -22,19 +22,6 @@ It analyzes facial features and predicts emotions like:
 
 ---
 
-## 📂 Project Structure
-facial-emotion-detection/
-│── main.py # Main program for real-time emotion detection
-│── README.md
-│── requirements.txt # Python dependencies
-└── tests/
-├── image_emotion_test.py # Tests emotion detection from image
-├── emotion_capture_test.py # Tests webcam emotion capture
-└── webcam_face_detector.py # Tests only face detection using
-
-
----
-
 ## ⚙️ How to Run
 1. Clone the repository:
 ```bash
