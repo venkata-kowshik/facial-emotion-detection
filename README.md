@@ -35,7 +35,7 @@ facial-emotion-detection/
 ## ⚙️ How to Run
 
 1. Clone the repository:
-   git clone https://github.com/VENKAT AKOWSHIK/facial-emotion-detection.git
+   git clone https://github.com/venkata-kowshik/facial-emotion-detection.git
 
 2. Install dependencies:
    pip install -r requirements.txt
